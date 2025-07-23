@@ -3,7 +3,7 @@ import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-about',
-  imports: [FooterComponent],
+  imports: [],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })

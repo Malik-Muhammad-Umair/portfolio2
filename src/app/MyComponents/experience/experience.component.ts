@@ -3,7 +3,7 @@ import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-experience',
-  imports: [FooterComponent],
+  imports: [],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.css'
 })

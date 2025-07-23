@@ -3,7 +3,7 @@ import { FooterComponent } from '../footer/footer.component';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
 @Component({
   selector: 'app-contact',
-  imports: [FooterComponent],
+  imports: [],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
 })
