@@ -1,0 +1,17 @@
+.container{
+    animation: appear  linear;
+animation-range:entry 0;
+animation-timeline: view();
+}
+@keyframes appear {
+    from{
+        
+      transform: translateX(-200px);
+    }
+    to{
+        
+        
+             transform: translateX(0px);
+    
+    }
+}

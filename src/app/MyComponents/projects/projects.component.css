@@ -1,0 +1,35 @@
+.cont {
+  position: relative;
+  height: auto;
+
+  width: auto;
+  border-radius: 23px;
+animation: appear  linear;
+animation-range:entry 0;
+animation-timeline: view();
+}
+.cont::after {
+  content: '';
+  height: 30px;
+  width: 30px;
+  background: linear-gradient(45deg, black, white);
+  box-shadow: 0 0 7px wheat;
+  border-radius: 30000px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        
+        opacity: 1;
+        scale: 1;
+    
+    }
+}
